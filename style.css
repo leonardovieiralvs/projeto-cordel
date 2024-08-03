@@ -7,7 +7,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 4vw;
+    font-size: 3.5vw;
 
 }
 
@@ -17,7 +17,6 @@
 }
 
 body {
-    font-size: 3vw;
     background-color: white;
 }
 
@@ -43,6 +42,7 @@ header p {
 }
 
 header a {
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -53,11 +53,12 @@ header a:hover {
 }
 
 .normal {
-    font-size: 3vw;
     font-family: var(--fonte-padrao);
-    padding: 100px 0px 100px 20px;
-    line-height: 1.7em;
-    padding-bottom: 78px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    line-height: 2rem;
+  
 }
 
 #img1 {
@@ -66,17 +67,19 @@ header a:hover {
     background-attachment: fixed;
     background-size: cover;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 80%;
 }
 
 .conteudo {
+    background-color: #0000006b;
+    top: 90px;
+    bottom: 20px;
+    left: 30px;
     color: white;
-    font-size: 3vw;
     position: absolute;
     font-family: var(--fonte-padrao);
-    font-size: 3vw;
-    line-height: 1.7em;
-    padding: 100px 0px 100px 20px;
+    line-height: 2rem;
+    padding: 5px;
 }
 
 #img2 {
@@ -85,17 +88,14 @@ header a:hover {
     position: relative;
     background-attachment: fixed;
     background-size: cover;
-    padding-bottom: 50%;
-    font-size: 30px
+    padding-bottom: 70%;
 }
 
 footer {
+    font-size: 5vh;
     color: white;
     background-color: black;
     text-align: center;
-    padding: 10px;
-    font-size: 20px;
-
 }
 
 footer > p > a {
