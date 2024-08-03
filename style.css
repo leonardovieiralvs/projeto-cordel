@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 4vw;
+
+}
+
+:root {
+    --fonte-destaque: "Passion One", sans-serif;
+    --fonte-padrao: "Sriracha", serif;
+}
+
+body {
+    font-size: 3vw;
+    background-color: white;
+}
+
+ header {
+     max-width: 100%;
+     background-color: black;
+ }
+ 
+header > h1 {
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 60px;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    color: white;
+}
+
+header p {
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.normal {
+    font-size: 3vw;
+    font-family: var(--fonte-padrao);
+    padding: 100px 0px 100px 20px;
+    line-height: 1.7em;
+    padding-bottom: 78px;
+}
+
+#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+.conteudo {
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+    font-family: var(--fonte-padrao);
+    font-size: 3vw;
+    line-height: 1.7em;
+    padding: 100px 0px 100px 20px;
+}
+
+#img2 {
+    background-position: left center;
+    background-image: url(imagens/background002.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 50%;
+    font-size: 30px
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
