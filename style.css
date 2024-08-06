@@ -7,8 +7,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 3.5vw;
-
 }
 
 :root {
@@ -16,19 +14,18 @@
     --fonte-padrao: "Sriracha", serif;
 }
 
-body {
-    background-color: white;
-}
+/* CABEÇALHO */
 
- header {
+header {
      max-width: 100%;
      background-color: black;
+     
  }
  
 header > h1 {
     font-variant: small-caps;
     font-size: 10vw;
-    padding-top: 60px;
+    padding-top: 50px;
     text-align: center;
     font-family: var(--fonte-destaque);
     color: white;
@@ -36,7 +33,7 @@ header > h1 {
 
 header p {
     font-size: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     text-align: center;
     color: white;
 }
@@ -44,7 +41,7 @@ header p {
 header a {
     font-size: 20px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
 }
 
@@ -52,50 +49,68 @@ header a:hover {
     text-decoration: underline;
 }
 
-.normal {
+/* GLOBAL PARA SECTION ( TUDO QUE ESTIVER DENTRO ) */
+
+section {
     font-family: var(--fonte-padrao);
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;    
     padding-left: 30px;
-    line-height: 2rem;
-  
+    line-height: 2em;
+    font-size: 4vw;
 }
 
-#img1 {
-    background-image: url(imagens/background001.jpg);
-    background-position: right center;
+/* BOX DE STROFE */
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: #ffffff;
+    font-family: var(--fonte-padrao);
+}
+
+/* BOX DA IMAGEM */
+
+section.imagem {
     background-attachment: fixed;
     background-size: cover;
-    position: relative;
-    padding-bottom: 80%;
+    box-shadow: inset 6px 6px 13px #00000059;
 }
 
-.conteudo {
+/* BOX DO CONTEÚDO DENTRO DAS IMAGENS */
+
+section.imagem p {
     background-color: #0000006b;
-    top: 90px;
-    bottom: 20px;
-    left: 30px;
-    color: white;
-    position: absolute;
+    color: #ffffff;
     font-family: var(--fonte-padrao);
-    line-height: 2rem;
+    display: inline-block;
+    text-shadow: 2px 2px 0px #000000;
     padding: 5px;
 }
 
-#img2 {
-    background-position: left center;
-    background-image: url(imagens/background002.jpg);
-    position: relative;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-bottom: 70%;
+/* IMAGENS */
+
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+ 
 }
 
+section#img2 { 
+    background-image: url(imagens/background002.jpg);
+    background-position: left center;
+}
+
+/* RODAPÉ */
+
 footer {
-    font-size: 5vh;
     color: white;
     background-color: black;
     text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
 }
 
 footer > p > a {
