@@ -19,23 +19,20 @@
 header {
      max-width: 100%;
      background-color: black;
-     
+     text-align: center;
+     color: white;
  }
  
 header > h1 {
+    font-family: var(--fonte-destaque);
     font-variant: small-caps;
     font-size: 10vw;
     padding-top: 50px;
-    text-align: center;
-    font-family: var(--fonte-destaque);
-    color: white;
 }
 
 header p {
     font-size: 20px;
     padding-bottom: 50px;
-    text-align: center;
-    color: white;
 }
 
 header a {
@@ -54,7 +51,7 @@ header a:hover {
 section {
     font-family: var(--fonte-padrao);
     padding-top: 10vh;
-    padding-bottom: 10vh;    
+    padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
     font-size: 4vw;
